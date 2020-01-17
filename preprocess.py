@@ -76,7 +76,7 @@ def write_metadata(metadata, out_dir):
 
 def main():
   parser = argparse.ArgumentParser()
-  parser.add_argument('--base_dir', default=os.path.expanduser('~/tacotron'))
+  parser.add_argument('--base_dir', default=os.path.expanduser('/content/mimic2'))
   parser.add_argument('--output', default='training')
   parser.add_argument(
       '--dataset', required=True, choices=['amy', 'blizzard', 'ljspeech', 'kusal', 'mailabs']
