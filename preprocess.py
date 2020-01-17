@@ -1,7 +1,7 @@
 import argparse
 import os
 from multiprocessing import cpu_count
-from tqdm import tqdm
+from tqdm import tqdm_notebook as tqdm
 from datasets import amy, blizzard, ljspeech, kusal, mailabs
 from hparams import hparams, hparams_debug_string
 
